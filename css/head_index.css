@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    width:100%;
+    height:29px;
+    background-color:#2a2f35;
+    position: relative;
+    z-index: 5;
+}
+.diyihang{
+    width:1220px;
+    margin:auto;
+    line-height:29px;
+    height:29px;
+    color:white;
+    
+    
+   
+}
+.left{
+    font-size:12px;
+    float:left;
+}
+.left div{
+    float:left;
+}
+.right{
+    float:right;
+}
+.right div{
+    float:left;
+    font-size: 12px;
+}
+div.right:nth-child(2) div{
+    margin-right:20px;
+}
+div.left:first-child div{
+    margin-right:20px;
+}
+
+
+.right a{
+    font-size:12px;
+    color:white;
+    text-decoration: none;
+   
+}
+/* 二楼 */
+.dierhang{
+    width:1220px;
+    height:80px;
+    margin:auto;
+}
+.left1{
+    width:438px;
+    height:60px;
+}
+.right1{
+    width:376px;
+    height:60px;
+}
+.left1 a,.right1 a{
+    height: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+    font-size: 16px;
+    color: #333;
+    padding: 0 12px;
+    position: relative;
+    overflow: hidden;
+}
+.left1,.cen{
+    float:left;
+}
+.right1{
+float:right;
+}
+
+
+.left1 a,.right1 a{
+    text-decoration: none;
+   
+}
+/* logo */
+.cen{
+    width:280px;
+    height:110px;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    border-bottom-left-radius: 140px;
+    border-bottom-right-radius: 140px;
+    box-shadow: 0px 3px 55px -30px #001e39;
+    left: calc( 50% - 140px );
+    background: white;
+}
+.logokuang{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 25px;
+    left: calc( 50% - 82.5px );
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 7.5px;
+}
+.cen img{
+width:110px;
+height:100px;
+margin-left:2px;
+margin-top:12px;
+}
+.logokuang div {
+    width: 150px;
+    height: 150px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    font-size: 0;
+}
+ .cen .logokuang>div>div {
+    display: inline-block;
+    margin: 5px;
+    width: 134px;
+    height: 134px;
+    border: 3px solid white;
+    border-radius: 50;
+}
+.cen .logokuang a {
+    margin: 4px auto 0;
+    width: 110px;
+    height: 100px;
+    display: block;
+    font-size: 0;
+    padding: 0;
+   
+    line-height: 40px;
+}
+.denglu{
+    width:200px;
+    height:300px;
+    border:1px solid pink;
+    position:fixed;
+    top:29px;
+    right:237px;
+    z-index: 55;
+    color:white;
+    background:rgba(0,0,0,.8);
+    font-size: 20px;
+    display:none;
+}
